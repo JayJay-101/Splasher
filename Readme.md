@@ -11,5 +11,6 @@ Once the user is signed up he can login with same credentials managed by local d
 
 ##  Technology used 
 - [X] Java
+- [X] Sql
 - [X] Lottie Animation
 - [X] google Navigation Drawer
