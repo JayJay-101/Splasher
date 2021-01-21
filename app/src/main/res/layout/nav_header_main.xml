@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:background="@drawable/yyy"
+    android:gravity="bottom"
+    android:orientation="vertical"
+   >
+
+    <com.jayjay.splasher.CustomView
+        android:id="@+id/customview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/headercontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textViw"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="Customer"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>
